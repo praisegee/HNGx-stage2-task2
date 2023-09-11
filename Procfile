@@ -1,1 +1,4 @@
-web: python manage.py migrate && python manage.py collectstatic --no-input && gunicorn hngx_two.wsgi
+web: gunicorn djangodrftodo.wsgi
+release: python manage.py makemigrations --noinput
+release: python manage.py migrate --noinput
+release: python manage.py collectstatic --noinput
