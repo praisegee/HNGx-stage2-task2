@@ -17,10 +17,6 @@ from decouple import Csv, config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 SETTINGS_PATH = Path(__file__).resolve().parent.parent
 BASE_DIR = os.path.dirname(SETTINGS_PATH)
-# print(BASE_DIR)
-
-print("My files:", BASE_DIR)
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
