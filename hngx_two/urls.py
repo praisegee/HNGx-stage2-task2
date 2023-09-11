@@ -41,7 +41,7 @@ api_route = [
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("api/", include(api_route)),
+    path("api", include(api_route)),
     path(
         "redoc-docs/",
         schema_view.with_ui("redoc", cache_timeout=0),
