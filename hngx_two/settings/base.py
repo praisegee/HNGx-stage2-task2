@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "person_resource",
     # 3rdParties apps
     "corsheaders",
+    "drf_yasg",
     "rest_framework",
 ]
 
