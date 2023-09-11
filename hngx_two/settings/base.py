@@ -61,6 +61,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "hngx_two.urls"
 
+APPEND_SLASH = False
+
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
