@@ -1,3 +1,1 @@
-web: uvicorn hngx_two.wsgi --log-file -
-release: python manage.py migrate --noinput
-release: python manage.py collectstatic --noinput
+web: python manage.py migrate && python manage.py collectstatic --no-input && gunicorn hngx_two.wsgi
