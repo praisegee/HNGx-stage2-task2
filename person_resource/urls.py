@@ -1,9 +1,9 @@
-from django.urls import path, include
-from rest_framework.routers import DefaultRouter
+from django.urls import include, path
 
+from .routers import OptionalSlashRouter
 from .views import PersonAPI
 
-router = DefaultRouter()
+router = OptionalSlashRouter()
 router.register("", PersonAPI, basename="person")
 
 urlpatterns = [path("api/", include(router.urls))]
