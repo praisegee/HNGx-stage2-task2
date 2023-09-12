@@ -55,5 +55,5 @@ python manage.py runserver
 
 ## Project Architechture
 
-Here is the diagram that represents the structure and relationships of the API's classes and models
+Here is the UML diagram that represents the structure and relationships of the API's classes and models
 ![UML diagram](./docs/uml.png "a title")
