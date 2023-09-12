@@ -2,11 +2,13 @@
 
 Contents
 
-- ![Introduction](#1-introduction)
-- ![Data format](#2-data-format)
-- ![Available endpoints](#3-available-endpoints)
-- ![Project setup](#4-project-setup)
-- ![Project Architechture](#5-project-architechture)
+   <!-- [HNGx-stage2-task2](#hngx-stage2-task2) -->
+
+[1. Introduction](#1-introduction)
+[2. Data format](#2-data-format)
+[3. Available endpoints](#3-available-endpoints)
+[4. Project setup](#4-project-setup)
+[5. Project Architechture](#5-project-architechture)
 
 ## 1. Introduction
 
